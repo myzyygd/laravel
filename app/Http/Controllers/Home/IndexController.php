@@ -10,7 +10,7 @@ use App\Http\Controllers\Controller;
 class IndexController extends Controller
 {
     function index(){
-    	$name = "燕国栋";
+    	$name = "小明";
     	return view('Home/Home')->with('name',$name);
     }
 }
